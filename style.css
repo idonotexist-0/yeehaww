@@ -1,0 +1,38 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 160px;
+  width: 380px;
+}
+
+.horse,
+.leg,
+.prize {
+  font-family: monospace;
+  margin: 0;
+}
+
+
+.prize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    font-size: 18px;
+}
